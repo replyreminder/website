@@ -95,15 +95,14 @@
                 <h2>Remind yourself to follow up</h2>
                 <h3>Now on Facebook Messenger + Google Chrome</h3>
             </div>
-            <div class="pure-u-1-1">
+            <div class="pure-u-1-1 button-container">
                 <!--
                   Below we include the Login Button social plugin. This button uses
                   the JavaScript SDK to present a graphical Login button that triggers
                   the FB.login() function when clicked.
                 -->
 
-                <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-                </fb:login-button>
+                <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false"></div>
 
                 <div id="status">
                 </div>
@@ -141,6 +140,16 @@
     
     .header {
         background-color: #0084ff
+    }
+    
+    #status{
+        color: #0084ff;
+        font-family: 'Ubuntu Mono', monospace;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .button-container{
+        text-align: center;
     }
 </style>
 
