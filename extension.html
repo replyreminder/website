@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="#">
     <title>ReplyReminder</title>
-    <link rel="shortcut icon" type="image/png" href="Artboard 1.png" />
+    <link rel="shortcut icon" type="image/png" href="Artboard 2.png" />
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
@@ -22,8 +22,12 @@
    <div class="container">
         <div class="pure-g">
             <div class="pure-u-1-1 header">
+            <div class="pure-u-1-1 header vaporwave">
                 <h1><span>&#10003;</span> Reply Reminder</h1>
+            </div>
+            <div class="pure-u-1-1 header">
                 <h2>Remind yourself to follow up</h2>
+            </div>
             </div>
             <div class="pure-u-1-1 center">
                     <h3>Download the Chrome Extension</h3>
@@ -53,14 +57,18 @@
         font-family: 'Quicksand', sans-serif;
         font-size: 40px;
         text-align: center;
-        color: white
+        color: white;
+        text-shadow: -.1rem -.1rem 0 #6BFFFF, .1rem .1rem 0 #ff71ce;
+
     }
     
     h3 {
         font-family: 'Quicksand', sans-serif;
         font-size: 30px;
         text-align: center;
-        color: rgb(0, 132, 255)
+        color: #65b4fd;
+        text-shadow:.1rem .1rem 0 rgba(255, 113, 206, 0.53);
+
     }
     
     .header {
@@ -73,6 +81,10 @@
     .infolink:before
     {
         content: "\2713";
+    }
+    .vaporwave {
+        text-shadow: -.3rem -.3rem 0 #6BFFFF, .3rem .3rem 0 #ff71ce;
+        font-family: 'Streamster', monospace;
     }
 </style>
 
